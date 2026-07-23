@@ -1,5 +1,4 @@
 
-
 # Annoy: This should be a paper Title
 
 <p align="center">
@@ -21,6 +20,7 @@
   - [Data Processing](#Data-Processing)
   - [Training](#Training)
 - [Citation](#Citation)
+- [License](#License)
 - [Acknowledgement](#Acknowledgement)
 
 ## Introduction
@@ -211,6 +211,14 @@ By doing so, you can get data `data/spec_demo_final.jsonl` with the same format 
 
 ### Training
 You can use any popular training framework to train your model like [llama-factory](https://github.com/hiyouga/LLaMA-Factory). 
+
+## License
+The released datasets, [`Annoy-PyEdu-Rs-Raw`](https://huggingface.co/datasets/asdad456/Annoy-PyEdu-Rs-Raw) and [`Annoy-PyEdu-Rs`](https://huggingface.co/datasets/asdad456/Annoy-PyEdu-Rs), are released under the **Apache License 2.0 (Apache-2.0)**.
+
+- The raw dataset (`Annoy-PyEdu-Rs-Raw`) is adopted from a source dataset that was released under the Apache-2.0 license.
+- The processed dataset (`Annoy-PyEdu-Rs`) is a derivative work built on top of the raw data, and therefore inherits the Apache-2.0 license.
+
+You are free to use, modify, and redistribute both datasets under the terms of the Apache-2.0 license. The full text of the license is available at https://www.apache.org/licenses/LICENSE-2.0.
 
 ## Acknowledgement
 We thank Koala NN, TCLV and OMEN for their valuable feedback and suggestions! 🤗🤗🤗
